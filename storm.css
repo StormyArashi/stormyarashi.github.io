@@ -1,0 +1,106 @@
+/* light blue: #e6ffff;   dark blue: #004d4d;   main blue: #e6ffff;   main gold: #ffcc00;	
+   mid gold: #e6b800;   dark gold: #cca300; */
+
+.container {
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	box-shadow: 0px 4px 4px grey;
+	background-color: #e6ffff;
+}
+
+#top {
+	background-color: #004d4d;
+	margin-top: -10px;
+}
+
+#navi {
+	background-color: #003333;
+}
+
+#middlediv {
+	background-color: #003333;
+}
+
+.top-title {
+	letter-spacing: 15px;
+	color: white;
+	
+}
+
+.sub-title {
+	font-size: 12px;
+	letter-spacing: 12px;
+	margin-top: -10px;
+	color: #ffcc00;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+	float: center;
+}
+
+a {
+	display: inline-block;
+	padding: 7px 10px;
+	color: white;
+}
+
+li a:hover{
+	background-color: #e6ffff;
+	text-decoration: none;
+	color: #003333;
+}
+
+#img-main {
+	margin-bottom: 15px;
+	max-height: auto;
+	box-shadow: 0px 2px 2px 2px #004f4f;
+}
+
+
+
+.middiv {
+	color: white;
+	letter-spacing: 10px;
+	padding: 5px;
+}
+
+h4 {
+	text-align: center;
+}
+
+#nakama {
+	margin: 10px;
+}
+
+.arashilogo {
+	max-width: 100px;
+	max-height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-image img:last-child {
+	display: none;
+}
+
+#main-image:hover img:first-child {
+	display: none;
+}
+
+#main-image:hover img:last-child {
+	display: inline-block;
+}
+
+img {
+	box-shadow: 0px 2px 2px 2px #004f4f;
+}
